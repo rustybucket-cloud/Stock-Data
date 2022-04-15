@@ -1,0 +1,24 @@
+{
+  "name": "stock-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest __tests__/monthlyHistory",
+    "start": "node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "jest": "^27.5.1",
+    "prompt": "^1.3.0",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0"
+  }
+}

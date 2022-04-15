@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../jest.config.ts"],
+  "sourcesContent": ["import type {Config} from '@jest/types';\n// Sync object\nconst config: Config.InitialOptions = {\n  verbose: true,\n  transform: {\n  '^.+\\\\.ts?$': 'ts-jest',\n  },\n};\nexport default config;"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAEA,MAAM,SAAgC;AAAA,EACpC,SAAS;AAAA,EACT,WAAW;AAAA,IACX,cAAc;AAAA;AAAA;AAGhB,IAAO,sBAAQ;",
+  "names": []
+}

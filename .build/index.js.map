@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["const prompt = require(\"prompt-sync\")()\nimport { searchStock, Match } from \"./utils/searchStock\";\nimport { monthlyHistory } from \"./utils/monthlyHistory\";\n\n(async function main() {\n  const search = prompt(\"What stock do you want to use?\\t\")\n  const options = await searchStock(search)\n  const history = await monthlyHistory(options)\n  const action = prompt(\"View high, view low, view start, view end, view average\")\n})()"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AACA,yBAAmC;AACnC,4BAA+B;AAF/B,MAAM,SAAS,QAAQ;AAIvB,AAAC,uBAAsB;AACrB,QAAM,SAAS,OAAO;AACtB,QAAM,UAAU,MAAM,oCAAY;AAClC,QAAM,UAAU,MAAM,0CAAe;AACrC,QAAM,SAAS,OAAO;AAAA;",
+  "names": []
+}

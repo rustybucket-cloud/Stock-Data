@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../utils/__mocks__/searchStock.ts"],
+  "sourcesContent": ["export const request = jest.fn(() => {\n  return Promise.resolve({\n    status: \"\",\n    data: {}\n  })\n})"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAO,MAAM,UAAU,KAAK,GAAG,MAAM;AACnC,SAAO,QAAQ,QAAQ;AAAA,IACrB,QAAQ;AAAA,IACR,MAAM;AAAA;AAAA;",
+  "names": []
+}
